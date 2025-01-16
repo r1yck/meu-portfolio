@@ -9,7 +9,6 @@ Este projeto foi construído com o [Next.js](https://nextjs.org), utilizando as 
 - **Next.js:** Framework React para criação de aplicações web rápidas e escaláveis.
 - **TypeScript:** Para garantir um desenvolvimento mais seguro e robusto.
 - **Tailwind CSS:** Para um design responsivo e moderno, permitindo uma personalização rápida.
-- **Vercel:** Plataforma de deploy para hospedar este portfólio com facilidade e alta performance.
 
 ## Como Rodar o Projeto
 
