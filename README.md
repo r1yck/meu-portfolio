@@ -1,4 +1,3 @@
-```markdown
 # Meu Portfólio
 
 Bem-vindo ao meu portfólio! Este site foi desenvolvido com o objetivo de exibir minhas habilidades como desenvolvedor, apresentando alguns dos meus projetos e experiências.
