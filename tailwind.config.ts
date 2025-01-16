@@ -9,8 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#212121", 
+        backgroundFooter: "#292C36", 
+        button: "#558FFF",
+        textWhite: "#FFFFFF", 
+        textBlue: "#4C70EF", 
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
