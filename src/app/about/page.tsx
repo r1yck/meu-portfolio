@@ -33,7 +33,7 @@ export default function AboutPage() {
               letterSpacing: "0.1em",
             }}
           >
-            Sobre Mim
+            SOBRE MIM
           </h2>
           <h3
             className="text-textWhite"
