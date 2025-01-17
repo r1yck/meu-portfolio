@@ -14,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="bg-background text-white font-poppins">
-        <Header />
         <main>{children}</main>
       </body>
     </html>
