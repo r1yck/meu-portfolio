@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Button from "@/components/Button";
 
 export default function AboutPage() {
   return (
@@ -8,7 +9,7 @@ export default function AboutPage() {
         title="Olá, sou o r1yck!"
         subtitle="Desenvolvedor Back-End - Editor de Vídeos"
       />
-      <section className="flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-[#212121]">
+      <section className="flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-[#212121] max-w-screen-lg mx-auto">
         <div className="relative flex-shrink-0">
           <div
             className="absolute top-4 left-4 w-[300px] h-[300px] rounded-[24px_0px] border-2 border-white"
@@ -68,6 +69,100 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
+
+
+      <section className="p-8 bg-[#212121]">
+        <div className="text-center mb-8">
+          <h2
+            className="text-textBlue"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 600,
+              fontSize: "30px",
+              lineHeight: "50px",
+              letterSpacing: "0.1em",
+            }}
+          >
+            O QUE EU FAÇO
+          </h2>
+          <h3
+            className="text-textWhite"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 600,
+              fontSize: "30px",
+              lineHeight: "30px",
+            }}
+          >
+            ESPECIALIZADO EM
+          </h3>
+        </div>
+
+        {/* Cards */}
+        <div className="flex flex-col md:flex-row gap-6 justify-center items-start">
+          {/* Card 1 */}
+          <div className="bg-backgroundFooter p-6 rounded-[12px] w-full md:w-[400px] flex gap-4 items-start">
+            <img
+              src="/assets/dev-logo.png"
+              alt="Logo Desenvolvimento"
+              className="w-16 h-16"
+            />
+            <div className="flex flex-col">
+              <h4 className="text-textWhite font-semibold text-lg mb-2">
+                Desenvolvimento Back-End
+              </h4>
+              <p
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "26px",
+                  color: "#B0ADAD",
+                  textAlign: "justify",
+                }}
+              >
+                Desenvolvo soluções eficientes, criando a infraestrutura
+                necessária para suportar aplicativos e sistemas robustos.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="bg-backgroundFooter p-6 rounded-[12px] w-full md:w-[400px] flex gap-4 items-start">
+            <img
+              src="/assets/vid-logo.png"
+              alt="Logo Edição"
+              className="w-16 h-16"
+            />
+            <div className="flex flex-col">
+              <h4 className="text-textWhite font-semibold text-lg mb-2">
+                Edição de Vídeos
+              </h4>
+              <p
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "26px",
+                  color: "#B0ADAD",
+                  textAlign: "justify",
+                }}
+              >
+                Transformo ideias em vídeos impactantes, unindo criatividade e técnica
+                para criar conteúdos envolventes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Botão */}
+        <div className="mt-8 text-center">
+          <Button text="Trabalhos" link="/work" />
+        </div>
+      </section>
+
       <Footer />
     </>
   );
