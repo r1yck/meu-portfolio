@@ -3,10 +3,7 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-backgroundFooter py-8 flex flex-col items-center">
-      {/* Logo */}
       <img src="/assets/logo.png" alt="Logo" className="h-8 mb-4" />
-
-      {/* Texto de Copyright */}
       <p
         className="text-white text-center"
         style={{
