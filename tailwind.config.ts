@@ -14,6 +14,7 @@ export default {
         button: "#558FFF",
         textWhite: "#FFFFFF", 
         textBlue: "#4C70EF", 
+        backgroundCard: "#D9D9D9",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
