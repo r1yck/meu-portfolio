@@ -12,20 +12,17 @@ export default function WorkPage() {
             <section className="p-8">
                 {/* Título da seção */}
                 <h2 className="text-blue-500 text-xl mb-4" style={{ textAlign: "center" }}>
-    PORTFOLIO
-</h2>
-<h3 className="text-white text-2xl font-bold mb-8" style={{ textAlign: "center" }}>
-    ÚLTIMOS PROJETOS
-</h3>
-
-                
+                    PORTFOLIO
+                </h2>
+                <h3 className="text-white text-2xl font-bold mb-8" style={{ textAlign: "center" }}>
+                    ÚLTIMOS PROJETOS
+                </h3>
                 {/* Cards de projetos */}
                 <div className="flex flex-wrap gap-8 justify-center">
                     <Cards title="Em Construção" buttonText="Ver Projeto" />
                     <Cards title="Em Construção" buttonText="Ver Projeto" />
                     <Cards title="Em Construção" buttonText="Ver Projeto" />
                 </div>
-
                 {/* Card com ferramentas */}
                 <div
                     className="bg-gray-900 mt-12 p-8 rounded-xl flex flex-col items-center gap-4"
