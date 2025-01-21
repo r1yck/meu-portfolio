@@ -13,7 +13,8 @@ export default {
         backgroundFooter: "#292C36", 
         button: "#558FFF",
         textWhite: "#FFFFFF", 
-        textBlue: "#4C70EF", 
+        textBlue: "#4C70EF",
+        textGray: "#B0ADAD",
         backgroundCard: "#D9D9D9",
       },
       fontFamily: {
