@@ -11,7 +11,7 @@ export default function ContactPage() {
             />
             <section className="p-8 flex flex-wrap justify-between items-start gap-8 max-w-[1200px] mx-auto">
                 {/* Redes Sociais */}
-                <div className="text-[#4C70EF] w-full md:w-[45%] lg:w-[40%]">
+                <div className="text-textBlue w-full md:w-[45%] lg:w-[40%]">
                     <h2 className="text-2xl font-bold mb-4">Redes Sociais:</h2>
                     <ul className="space-y-4">
                         <li className="flex items-center">
@@ -20,7 +20,7 @@ export default function ContactPage() {
                                 href="https://www.instagram.com/r1yck/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white underline hover:text-[#4C70EF]"
+                                className="text-white underline hover:text-textBlue"
                             >
                                 Instagram
                             </a>
@@ -31,7 +31,7 @@ export default function ContactPage() {
                                 href="https://wa.me/5573998336602"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white underline hover:text-[#4C70EF]"
+                                className="text-white underline hover:text-textBlue"
                             >
                                 Whatsapp
                             </a>
@@ -42,7 +42,7 @@ export default function ContactPage() {
                                 href="https://github.com/r1yck"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white underline hover:text-[#4C70EF]"
+                                className="text-white underline hover:text-textBlue"
                             >
                                 Github
                             </a>
@@ -52,7 +52,7 @@ export default function ContactPage() {
 
                 {/* Formulário de Contato */}
                 <div className="w-full md:w-[45%] lg:w-[40%]">
-                    <h2 className="text-2xl font-bold text-[#4C70EF] mb-4 text-center md:text-left">
+                    <h2 className="text-2xl font-bold text-textBlue mb-4 text-center md:text-left">
                         Envie uma mensagem:
                     </h2>
                     <form
@@ -66,7 +66,7 @@ export default function ContactPage() {
                         <Input placeholder="Sua mensagem..." isLarge />
                         <button
                             type="submit"
-                            className="w-full bg-[#4C70EF] text-white py-2 px-4 rounded-lg font-bold hover:bg-blue-600"
+                            className="w-full bg-textBlue text-white py-2 px-4 rounded-lg font-bold hover:bg-blue-600"
                         >
                             Enviar
                         </button>

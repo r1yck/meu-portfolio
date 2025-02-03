@@ -25,3 +25,19 @@ bun dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+## Prints das Telas
+
+Abaixo estão algumas capturas de tela das páginas atualmente desenvolvidas:
+
+### Página Sobre
+![About Page](public/assets/aboutPage.png)
+
+### Página de Trabalhos
+![Work Page](public/assets/workPage.png)
+
+### Página de Ferramentas
+![Tools Page](public/assets/toolsPage.png)
+
+### Página de Contato
+![Contact Page](public/assets/contactPage.png)
