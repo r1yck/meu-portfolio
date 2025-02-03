@@ -26,6 +26,12 @@ bun dev
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
+## Design no Figma
+
+O design do portfólio foi criado no Figma. Você pode acessá-lo através do link abaixo:
+
+[![Figma](https://img.shields.io/badge/Acessar%20Figma-blue?style=for-the-badge&logo=figma)](https://www.figma.com/design/v3hrZp1yxijs2HpuHl6WEj/Portfolio?node-id=0-1&p=f&t=ahqaDOjWYcetdyhd-0)
+
 ## Prints das Telas
 
 Abaixo estão algumas capturas de tela das páginas atualmente desenvolvidas:
@@ -41,3 +47,4 @@ Abaixo estão algumas capturas de tela das páginas atualmente desenvolvidas:
 
 ### Página de Contato
 ![Contact Page](public/assets/contactPage.png)
+
