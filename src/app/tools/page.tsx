@@ -11,7 +11,7 @@ export default function ToolsPage() {
         { name: "TypeScript", image: "/assets/ts.png" },
         { name: "React", image: "/assets/react.png" },
         { name: "VSCode", image: "/assets/vscode.png" },
-        { name: "Node.js", image: "/assets/nodejs.png" },
+        { name: "Node.js", image: "/assets/nodejs.webp" },
         { name: "MySQL", image: "/assets/mysql.png" },
         { name: "GitHub", image: "/assets/github.png" },
         { name: "Git", image: "/assets/git.png" },
@@ -27,7 +27,7 @@ export default function ToolsPage() {
             />
             <section className="p-8">
                 {/* Box de ferramentas */}
-                <div className="bg-backgroundCard p-8 rounded-[12px] max-w-[1100px] w-full mx-auto">
+                <div className="bg-backgroundFooter p-8 rounded-[12px] max-w-[1100px] w-full mx-auto">
                     <div className="flex flex-wrap justify-center gap-8 mb-8">
                         {tools.map((tool, index: number) => (
                             <div
@@ -41,7 +41,7 @@ export default function ToolsPage() {
                                         className="max-w-full max-h-full object-contain"
                                     />
                                 </div>
-                                <span className="mt-2 text-black text-center font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span className="mt-2 text-white text-center font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     {tool.name}
                                 </span>
                             </div>
@@ -53,13 +53,13 @@ export default function ToolsPage() {
                             fontFamily: "Poppins, sans-serif",
                             fontStyle: "normal",
                             fontWeight: 600,
-                            fontSize: "30px",
+                            fontSize: "22px",
                             lineHeight: "60px",
-                            color: "#000000",
+                            color: "#ffffff",
                         }}
                         className="text-center"
                     >
-                        Entre Outras...
+                        Explore meu Github na próxima página para ver essas ferramentas na prática!
                     </h2>
                 </div>
 
