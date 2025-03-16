@@ -34,7 +34,6 @@ export default function ContactPage() {
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
 
-
             alert("Mensagem enviada com sucesso!");
             setFormData({ from_name: "", from_email: "", subject: "", message: "" });
         } catch (error) {
@@ -69,6 +68,12 @@ export default function ContactPage() {
                                 Github
                             </a>
                         </li>
+                        <li className="flex items-center">
+                            <img src="/assets/yt.png" alt="YouTube" className="w-8 h-8 mr-4" />
+                            <a href="https://www.youtube.com/@rick.mp4" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-textBlue">
+                                YouTube (portfólio de editor de vídeos)
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -84,7 +89,7 @@ export default function ContactPage() {
                             placeholder="Digite seu nome e sobrenome"
                             required />
                         <Input
-                        type="email"
+                            type="email"
                             name="from_email"
                             value={formData.from_email}
                             onChange={handleChange}

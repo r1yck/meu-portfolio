@@ -7,16 +7,16 @@ export default function AboutPage() {
         <>
             <Header
                 title="Olá, sou o r1yck!"
-                subtitle="Desenvolvedor Back-End e Editor de Vídeos"
+                subtitle="Desenvolvedor Full-Stack e Editor de Vídeos"
             />
             <section className="flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-background max-w-screen-lg mx-auto">
                 {/* Foto */}
                 <div className="relative flex-shrink-0">
-                    <div className="absolute top-4 left-4 w-[300px] h-[300px] rounded-[24px_0px] border-2 border-textWhite"></div>
+                    <div className="absolute top-4 left-4 w-[250px] h-[250px] rounded-[24px_0px] border-2 border-textWhite"></div>
                     <img
                         src="/assets/minha-foto.png"
                         alt="Minha foto"
-                        className="relative w-[300px] h-[300px] object-cover border-2 border-textWhite"
+                        className="relative w-[250px] h-[250px] object-cover border-2 border-textWhite"
                         style={{ boxSizing: "border-box" }}
                     />
                 </div>
@@ -26,14 +26,10 @@ export default function AboutPage() {
                     <h3 className="text-textWhite font-semibold text-2xl">
                         Meu nome é Henrique Fontoura
                     </h3>
-                    <p className="text-textGray text-sm leading-6">
-                        Podem me chamar apenas de Rick! Tenho 20 anos, sou graduando em
-                        Sistemas de Informação em Itapetinga, Bahia. Atuo como desenvolvedor
-                        back-end, criando soluções eficientes, e também edito vídeos,
-                        transformando ideias em conteúdos criativos. Além de apaixonado por
-                        tecnologia, sou fã de animes e adoro andar de skate para relaxar.
-                        Busco desafios que me façam evoluir sempre, com disciplina e foco como
-                        meus guias.
+                    <p className="text-textWhite text-base leading-6">
+                        Sou estudante de Bacharelado em Sistemas de Informação (5/8) e estou cursando Técnico em Informática. Atuo no desenvolvimento de sites e aplicações full stack, criando soluções eficientes e escaláveis. Além disso, tenho experiência com edição de vídeos, transformando ideias em conteúdos criativos e dinâmicos. 
+                        <br /><br />
+                        No meu tempo livre, gosto de assistir animes e andar de skate para relaxar.
                     </p>
                 </div>
             </section>
@@ -53,11 +49,10 @@ export default function AboutPage() {
                         />
                         <div className="flex flex-col">
                             <h4 className="text-textWhite font-semibold text-lg mb-2">
-                                Desenvolvimento Back-End
+                                Desenvolvimento Full Stack
                             </h4>
                             <p className="text-textGray text-sm leading-6">
-                                Desenvolvo soluções eficientes, criando a infraestrutura
-                                necessária para suportar aplicativos e sistemas robustos.
+                                Construo aplicações web completas, desde o front-end intuitivo até o back-end robusto, garantindo performance e escalabilidade.
                             </p>
                         </div>
                     </div>
