@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu portfólio! 🌟 Este site foi desenvolvido com o objetivo de exibir minhas habilidades como desenvolvedor, apresentando alguns dos meus projetos e experiências.
 
+🔗 **Acesse o site:** [meu-portfolio-wine-zeta.vercel.app](https://meu-portfolio-wine-zeta.vercel.app)
+
 Este projeto foi construído com o [Next.js](https://nextjs.org), utilizando as melhores práticas de desenvolvimento web. Abaixo estão mais detalhes sobre como executar e contribuir para este repositório.
 
 ---
@@ -37,24 +39,6 @@ Em seguida, abra [http://localhost:3000](http://localhost:3000) no seu navegador
 O design do portfólio foi criado no Figma. Você pode acessá-lo através do link abaixo:
 
 [![Acessar Figma](https://img.shields.io/badge/Acessar%20Figma-blue?style=for-the-badge&logo=figma)](https://www.figma.com/design/v3hrZp1yxijs2HpuHl6WEj/Portfolio?node-id=0-1&p=f&t=ahqaDOjWYcetdyhd-0)
-
----
-
-## 📸 Prints das Telas
-
-Abaixo estão algumas capturas de tela das páginas atualmente desenvolvidas:
-
-### 🧑‍💻 Página Sobre
-![About Page](public/assets/aboutPage.png)
-
-### 💼 Página de Trabalhos
-![Work Page](public/assets/workPage.png)
-
-### 🛠️ Página de Ferramentas
-![Tools Page](public/assets/toolsPage.png)
-
-### 📞 Página de Contato
-![Contact Page](public/assets/contactPage.png)
 
 ---
 
